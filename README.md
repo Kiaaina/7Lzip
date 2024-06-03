@@ -1,2 +1,3 @@
 # 7Lzip
 File Zip... By  Kia7L...
+Install \Documents\7Lzip\
