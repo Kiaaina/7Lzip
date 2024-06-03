@@ -8,14 +8,14 @@ color 04
 set "DIR1=%UserProfile%\OneDrive\Documents\7Lzip\"
 
 mode 86,20
-insertbmp.exe /p:"%DIR1%rated-r.bmp" /x:0 /y:0 /z:150 & timeout /t 5 > nul
+insertbmp.exe /p:"%DIR2%rated.bmp" /x:0 /y:0 /z:150 & timeout /t 5 > nul
 
 mode 86,20
 insertbmp.exe /p:"%DIR1%7Lzip.bmp" /x:0 /y:0 /z:150 & timeout /t 1 > nul
 
 mode 100,7
-MD %DIR2%\Ziped\
-MD %DIR2%\Unzip\
+MD %DIR1%\Ziped\
+MD %DIR1%\Unzip\
 cls
 cecho {03}Choose {04}1=zip {07}or {06}2=unzip{07}
 
