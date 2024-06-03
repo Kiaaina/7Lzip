@@ -11,7 +11,7 @@ insertbmp.exe /p:"%DIR%" /x:0 /y:0 /z:150 & timeout /t 1 > nul
 mode 100,7
 set "DIR1=OneDrive"
 set "DIR2=%UserProfile%\%DIR1%\Documents\7Lzip
-MD %DIR2%\Compressed\
+MD %DIR2%\Ziped\
 MD %DIR2%\Unzip\
 cls
 cecho {03}Choose {04}1=zip {07}or {06}2=unzip{07}
@@ -27,7 +27,7 @@ set /p m=:
 cecho {03}Choose file Name.Extension{07}
 set /p n=:
 cecho {06}Please Be Patient...{07}%time%{\n}
-copy %m% %DIR2%\Compressed\%n%
+copy %m% %DIR2%\Ziped\%n%
 goto 7L
 
 :unzip
