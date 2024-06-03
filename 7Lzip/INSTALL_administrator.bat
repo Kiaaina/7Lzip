@@ -6,7 +6,7 @@ title "VTOL"
 color 04
 cls    
 
-set "folder=%UserProfile%\OneDrive\Documents\7Lzip\install_in_windows_folder
+set "folder=%UserProfile%\OneDrive\Documents\7Lzip\install_in_windows_folder"
 
 copy /y "%folder%\Insertbmp.exe" "C:\Windows\"
 copy /y "%folder%\cecho.exe" "C:\Windows\"
