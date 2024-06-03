@@ -7,8 +7,7 @@ color 04
 
 set "DIR=%UserProfile%\OneDrive\Documents\7Lzip\7Lzip.bmp"
 set "Rate=%UserProfile%\OneDrive\Documents\7Lzip\rated-r.bmp"
-mode 86,20
-insertbmp.exe /p:"%Rate%" /x:0 /y:0 /z:150 & timeout /t 5 > nul
+
 mode 86,20
 insertbmp.exe /p:"%DIR%" /x:0 /y:0 /z:150 & timeout /t 1 > nul
 mode 100,7
@@ -45,7 +44,5 @@ goto 7L
 :7L
 cecho {03}made by {06}Kia7L{07}%time%{\n}
 timeout /t 5 > nul
-del %DIR2%\Batu.cmd
-copy %DIR2%\primary\Batu.cmd %DIR2%\
 pause
 exit
