@@ -42,5 +42,4 @@ goto 7L
 :7L
 cecho {03}made by {06}Kia7L...{07}%time%{\n}
 timeout /t 5 > nul
-pause
 exit
