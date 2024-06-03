@@ -43,7 +43,7 @@ cecho {06}Please Be Patient...{07}%time%{\n}
 goto 7L
 
 :7L
-cecho {03}made by {06}Kia7L{07}%time%{\n}
+cecho {03}made by {06}Kia7L...{07}%time%{\n}
 timeout /t 5 > nul
 start %DIR1%\primary\del.cmd
 exit
