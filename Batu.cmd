@@ -1,6 +1,6 @@
 cd /
 :top
-mode 100,7
+
 title "7L.zip"
 @echo off
 color 04
@@ -8,7 +8,7 @@ color 04
 set "DIR=%UserProfile%\OneDrive\Documents\7Lzip\7Lzip.bmp
 mode 86,20
 insertbmp.exe /p:"%DIR%" /x:0 /y:0 /z:150 & timeout /t 1 > nul
-
+mode 100,7
 set "DIR1=OneDrive"
 set "DIR2=%UserProfile%\%DIR1%\Documents\7Lzip
 MD %DIR2%\Compressed\
