@@ -27,7 +27,7 @@ copy %m% %DIR2%\Compressed\%n%
 goto 7L
 
 :unzip
-cecho {03}Choose .custom file{07}
+cecho {03}Choose compressed custom file{07}
 set /p m=:
 cecho {03}Choose file Name{07}
 set /p n=:
