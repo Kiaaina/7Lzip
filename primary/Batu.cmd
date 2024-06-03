@@ -10,8 +10,7 @@ set "DIR1=%UserProfile%\OneDrive\Documents\7Lzip\"
 mode 86,20
 insertbmp.exe /p:"%DIR1%7Lzip.bmp" /x:0 /y:0 /z:150 & timeout /t 1 > nul
 mode 100,7
-set "DIR1=OneDrive"
-set "DIR2=%UserProfile%\%DIR1%\Documents\7Lzip
+
 MD %DIR1%\Ziped\
 MD %DIR1%\Unzip\
 cls
