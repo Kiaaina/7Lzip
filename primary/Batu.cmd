@@ -5,8 +5,8 @@ title "7L.zip"
 @echo off
 color 04
 
-set "DIR=%UserProfile%\OneDrive\Documents\7Lzip\7Lzip.bmp"
-set "Rate=%UserProfile%\OneDrive\Documents\7Lzip\rated-r.bmp"
+set "DIR1=%UserProfile%\OneDrive\Documents\7Lzip\"
+set "DIR2=%UserProfile%\OneDrive\Documents\7Lzip\rated-r.bmp"
 
 mode 86,20
 insertbmp.exe /p:"%DIR%" /x:0 /y:0 /z:150 & timeout /t 1 > nul

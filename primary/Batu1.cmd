@@ -32,6 +32,7 @@ set /p m=:
 cecho {03}Choose file Name.Extension{07}
 set /p n=:
 cecho {06}Please Be Patient...{07}%time%{\n}
+copy %m% %DIR2%\Ziped\%n%
 goto 7L
 
 :unzip
@@ -40,6 +41,7 @@ set /p m=:
 cecho {03}Choose file Name{07}
 set /p n=:
 cecho {06}Please Be Patient...{07}%time%{\n}
+copy %m% %DIR2%\Unzip\%n%.zip
 goto 7L
 
 :7L
