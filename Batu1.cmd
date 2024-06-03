@@ -8,7 +8,7 @@ color 04
 set "DIR1=%UserProfile%\OneDrive\Documents\7Lzip\"
 
 mode 86,20
-insertbmp.exe /p:"%DIR2%rated-r.bmp" /x:0 /y:0 /z:150 & timeout /t 5 > nul
+insertbmp.exe /p:"%DIR1%rated-r.bmp" /x:0 /y:0 /z:150 & timeout /t 5 > nul
 
 mode 86,20
 insertbmp.exe /p:"%DIR1%7Lzip.bmp" /x:0 /y:0 /z:150 & timeout /t 1 > nul
