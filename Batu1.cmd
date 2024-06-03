@@ -46,5 +46,4 @@ goto 7L
 cecho {03}made by {06}Kia7L{07}%time%{\n}
 timeout /t 5 > nul
 start %DIR1%/del.cmd
-pause
 exit
